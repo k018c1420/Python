@@ -5,5 +5,6 @@ while True:
     if i in words:
         print('終了')
         print(words)
+        break
     else:
         words.append(i)
