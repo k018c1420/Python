@@ -14,8 +14,7 @@ def funcMax(list):
             temp = int(i)
     return temp
     
-i = input('数値＞')
-i = i.split(' ')
+i = input('数値＞').split()
 
 print("平均：" + str(funcAve(i)))
 print("最大値：" + str(funcMax(i)))
